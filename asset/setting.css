@@ -1,0 +1,61 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    /* overflow-x: hidden; */
+}
+
+.change-color {
+    display: flex;
+    transform: translateX(380%);
+    justify-content: end;
+    width: 25%;
+    height: 50%;
+}
+
+.gear {
+    background-color: gray;
+    width: 15%;
+    text-align: center;
+    padding: 10px;
+    height: fit-content;
+}
+
+.gear i {
+    font-size: 25px
+}
+
+body {
+    background-color: black;
+    height: 20em;
+    width: 100%;
+}
+
+.color-setting {
+    background-color: white;
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.color {
+    height: 25%;
+    width: 20%;
+    border-radius: 50%;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.black {
+    background-color: black;
+}

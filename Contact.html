@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Mohamed Salah</title>
+</head>
+
+<body>
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="change">
+        <div>
+            <i class="fa-solid fa-gear"></i>
+        </div>
+    </div>
+
+    <div class="con">
+        <div class="nav">
+            <div class="icon">
+                <h2> <i class="fa-solid fa-m"></i> Salah</h2>
+            </div>
+            <div class="home">
+                <ul>
+                    <li class="u"><a href="index.html">Home</a></li>
+                    <li class="u"><a href="about.html">about</a></li>
+                    <li><a href="news.html" >News</a></li>
+
+                    <li class="messages"><a href="admin/add_news.html">add News</a></li>
+                    <li class="u"><a href="Contact.html">Contact</a></li>
+                    <li class="messages"><a href="admin/show_messages.html">Messages</a></li>
+
+                    <li><a id="logname" href="log.html">login</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="contact">
+        <div class="pr-contact">
+            <div class="text">
+                <div>
+                    <a href="https://goo.gl/maps/2iTMxsL1zp3uRJBc6">location</a>
+
+                </div>
+                <div>
+
+                    <a href="https://wa.me/01096660548">chat me</a>
+                </div>
+                <div>
+                    <a href="tel:+0109666058"> call 01096660548</a>
+
+                </div>
+                <div>
+
+                    <a href="mailto:m7mdslah@gmail.com"> send email</a>
+                </div>
+            </div>
+            <div class="contact-my">
+                <div id="hh"></div>
+                <form action="" method="get" class="add-message-form">
+                    <div class="data">
+                        <div class="for-log">
+                            <label for="name">name</label><br>
+                            <input type="text" name="name" placeholder="Enter your name" id="name_message"><br>
+                            <span id="err_name_message"></span>
+                            <br>
+                            <label for="email">email</label><br>
+                            <input type="email" name="email" placeholder="Enter your email" id="email_message">
+                            <br>
+                            <span id="err_email_message"></span>
+                        </div>
+                        <div class="mass-text">
+                            <label for="message">message</label><br>
+                            <textarea rows="10px" cols="50px" name="message" id="message" placeholder="Enter your message"></textarea><br>
+                            <span id="err_message"></span>
+                        </div>
+                    </div>
+                    <input type="submit" value="submit" id="sub_add">
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <form action="" style="display: none;" class="signup-form login-form add-message-form" >
+        <input type="submit"  value="submit" class="sub" id="sub-sign">
+        <input type="submit" value="submit" id="sub">
+        
+    </form>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="asset/js.js"></script>
+</body>
+
+</html>
