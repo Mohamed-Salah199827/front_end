@@ -8,16 +8,16 @@ if (login_user) {
     if (mess) {
         let na = document.querySelector('form.add-message-form #name_message');
         let em = document.querySelector('form.add-message-form #email_message');
-        if(na ||em ){
+        if (na || em) {
             na.value = user.name;
-             em.value = user.email;
+            em.value = user.email;
         }
         mess.forEach(input => {
             input.style.display = 'none';
-            console.log(input); 
+            console.log(input);
 
 
-        });    
+        });
 
     }
     if (user.type == 'admin') {
@@ -164,12 +164,22 @@ function login(e) {
 addInitEvents();
 
 function addInitEvents() {
-    document.querySelector('form.add-news input[type=submit]').addEventListener('click', add_news);
-    document.querySelector('form.add-message-form input[type=submit]').addEventListener('click', add_message);
-    document.querySelector('form.login-form input[type=submit]').addEventListener('click', login)
-    document.querySelector('form.signup-form input[type=submit]').addEventListener("click", signup);
-
+    let su_add_news = document.querySelector('form.add-news input[type=submit]')
+    let su_add_mess = document.querySelector('form.add-message-form input[type=submit]')
+    let su_sig = document.querySelector('form.signup-form input[type=submit]')
+    let su_log = document.querySelector('form.login-form input[type=submit]')
+   
+   
+    if (su_add_news) su_add_news.addEventListener('click', add_news)
+    if (su_add_mess) su_add_mess.addEventListener('click', add_message)
+    if (su_sig) su_sig.addEventListener('click', signup)
+    if (su_log) su_log.addEventListener('click', login)
 }
+
+   
+
+
+
 
 function add_message(e) {
     e.preventDefault();

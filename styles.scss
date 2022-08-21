@@ -1,4 +1,4 @@
-@media only screen and (max-width: 2200px) {
+@media only screen and (max-width: 1700px) {
     .con {
 
         background-color: rgb(226, 7, 7);
@@ -14,34 +14,50 @@
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 700px) {
     .con {
-display: flex;
-}
+        display: flex;
+        background-color: rgb(85, 85, 85);
+    }
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 300px) {
     .con {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        
         background-color: #8dc4f8;
-        .nav{
-                display: flex;
-                flex-direction: column;
-                .home{
-                display: flex;
+        width: 100%;
+        
+        .nav {
+            width: 100%;
+            display: flex;
+            margin-right: 65px;
+
+.icon{
+margin-right:3vh ;}
+            #none{
+                display: none;
+
+            }
+            .home {
+                display: none;
                 margin-top: 7vh;
-                position: fixed;
+                position: absolute;
                 background-color: #2c2c2c;
-                padding-right: 5vh;
-                    ul{
-                        
-                        display: flex;
-                        flex-direction: column;
-                    }
+                padding-right: 10vh;
+                padding-bottom: 5vh;
+                padding-top: 5vh;
+                display: none;
+
+                ul {
+
+                    display: flex;
+                    flex-direction: column;
                 }
+            }
 
         }
 
@@ -94,6 +110,8 @@ $col:red;
     margin: 0;
     padding: 0;
 }
+
+
 
 body {
     background-color: black;
