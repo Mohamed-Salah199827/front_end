@@ -262,7 +262,7 @@ function displayNews(news) {
         let div_img = document.createElement("div");
         div_img.className = "img-container";
         let img = document.createElement('img')
-        img.src = "img/news-1.jpg";
+        img.src = "img/news-1.JPG";
         div_img.append(img);
         let div = document.createElement('div');
         let h3 = document.createElement('h3');
