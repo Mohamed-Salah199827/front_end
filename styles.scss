@@ -946,3 +946,102 @@ body {
         }
     }
 }
+
+
+
+@media  screen and (max-width: 600px) {
+    .create {
+    width: 100%;
+    }
+    
+    .img-container{
+      width: 100%;
+      height:100%
+    }
+    
+    .create h3 {
+      margin-bottom: 2vh;
+      text-align: start;
+      font-size: 15px;
+    }
+    
+    .create div span{
+      font-size:12px
+    }
+    
+    .create div p{
+      font-size: 8px
+    }
+    .co .lest .img-lest{
+      width:36%;
+    }
+    
+    @media  screen and (width: 920px) {
+      .co .lest .img-lest{
+        width:36%;
+      }
+    }
+    @media  screen and (width: 690px) {
+    .co .about .text_about{
+      width:40%;
+      height: 50vh;
+    }
+    }
+    @media  screen and (max-width: 420px) {
+      .create div{
+        width: 100%;
+      }
+    
+      .create div span{
+        font-size: 13px;
+        text-align: left;
+    }
+      }
+    
+      .contact .pr-contact{
+        display: flex;
+        flex-direction: column;
+      }
+      .contact .pr-contact .text{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+      }
+      .for-log{
+        display: flex;
+          flex-direction: column;
+          align-items: center;
+      
+      }
+      .contact .pr-contact .contact-my form .data div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15%;
+      }
+    
+      .about_img , .co .lest .img-lest ,.co .Goals .img-goals{
+        display: none;
+      }
+      .co .about .text_about  {
+        width: 100%;
+        text-align: center;
+        height: 47vh;
+      }
+      .co .Mistress .cont{
+        width: 70%;
+        text-align: center;
+      }
+      .co .lest .text ,.co .Goals .text-goals{
+        margin-left: 0;
+        width: 100%;
+      }
+      .co .BRAND div ,.co .BRAND div {
+        
+        margin: 0;
+        width: 100%;
+        margin-top: 10px;
+      }
+      }
+    
