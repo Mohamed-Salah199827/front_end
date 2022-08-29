@@ -1,4 +1,14 @@
 let login_user = localStorage.getItem('login_user');
+let co= localStorage.getItem("color")
+if (co) {
+    document.documentElement.style.setProperty('--blue',co );
+
+}
+let button_co =document.getElementById("bu_co")
+if (button_co)button_co.addEventListener("click", change_click)
+function change_click() {
+    window.location.href = './contact.html';
+}
 
 
 if (login_user) {
@@ -8,13 +18,16 @@ if (login_user) {
     if (mess) {
         let na = document.querySelector('form.add-message-form #name_message');
         let em = document.querySelector('form.add-message-form #email_message');
-        if (na || em) {
+        let a = document.getElementById("a")
+
+        // a.style.display = "flex"
+        if (na || em || a) {
+            a.style.display = "flex"
             na.value = user.name;
             em.value = user.email;
         }
         mess.forEach(input => {
             input.style.display = 'none';
-            console.log(input);
 
 
         });
@@ -168,15 +181,15 @@ function addInitEvents() {
     let su_add_mess = document.querySelector('form.add-message-form input[type=submit]')
     let su_sig = document.querySelector('form.signup-form input[type=submit]')
     let su_log = document.querySelector('form.login-form input[type=submit]')
-   
-   
+
+
     if (su_add_news) su_add_news.addEventListener('click', add_news)
     if (su_add_mess) su_add_mess.addEventListener('click', add_message)
     if (su_sig) su_sig.addEventListener('click', signup)
     if (su_log) su_log.addEventListener('click', login)
 }
 
-   
+
 
 
 
@@ -271,7 +284,7 @@ function displayNews(news) {
         h3.textContent = "name: " + ne.name;
         span.textContent = "email: " + ne.email;
         p.innerHTML = "<h2>news</h2>" + "<br>" + ne.title;
-        div.append(div_img, h3, span, p);
+        div.append(div_img, h3,  p);
         let parent_div = document.querySelector('.news-container');
         if (parent_div) {
             parent_div.appendChild(div);
@@ -291,3 +304,80 @@ function getNews() {
 
 }
 getNews()
+
+
+function get_mess_us() {
+    let mess_us = localStorage.getItem("messages")
+
+    if (mess_us) {
+        mess_us = JSON.parse(mess_us);
+        let mes = mess_us.filter(message => message.email == JSON.parse(login_user).email)
+        console.log(mes);
+    }
+    displaymessus(mess_us)
+
+
+
+}
+function displaymessus(mess_us) {
+    if (mess_us) {
+
+        for (const message of mess_us) {
+
+            let div = document.createElement('div');
+            let h3 = document.createElement('h3');
+            let p = document.createElement('p');
+            let span = document.createElement('span');
+            h3.textContent = message.name;
+            p.textContent = message.email;
+            span.textContent = message.message;
+            div.append(h3, p, span);
+            let parent_div = document.querySelector('.us_mess');
+            if (parent_div) {
+                parent_div.appendChild(div);
+            }
+        }
+    }
+}
+
+get_mess_us()
+// console.log(icon_p);
+let icon_p = document.getElementById("icon-p").addEventListener("click", drop_list)
+function drop_list() {
+    let list = document.getElementById("home")
+    list.style.display = "flex"
+    
+  if (list.style.display = "none") {
+    list.style.display = "flex"
+  }
+  else if(list.style.display = 'flex'){
+    list.style.display = "none"
+  }
+}
+
+let cha = document.getElementById("gear").addEventListener('click', sett);
+function sett() {
+    let change_color = document.getElementById("change-color")
+    change_color.classList.toggle("change2-color")
+
+
+}
+
+let color = document.querySelectorAll("#change-color .color-setting span")
+color.forEach(element => {
+    // console.log(element);
+    
+    element.addEventListener("click", function(){
+        colors(element.getAttribute("id"))
+         document.documentElement.style.setProperty('--blue',element.getAttribute("id") );
+         localStorage.setItem("color",element.getAttribute("id"))
+
+    } )
+// console.log(element.getAttribute("id"));
+
+});
+
+function colors(color) {
+    console.log(color);
+    
+}
