@@ -183,11 +183,11 @@ body {
 }
 
 .change-color {
-z-index: 9;
+    z-index: 9;
     display: flex;
     margin: 30%;
     transform: translateX(172%);
-    position:fixed ;
+    position: fixed;
     right: 0;
     top: -30%;
     justify-content: end;
@@ -202,7 +202,7 @@ z-index: 9;
     justify-content: end;
     width: 25%;
     height: 30%;
-    position:fixed ;
+    position: fixed;
     right: 0;
     top: -30%;
     justify-content: end;
@@ -494,7 +494,7 @@ z-index: 9;
     }
 
     .signup {
-        
+
         height: fit-content;
         text-align: center;
         height: 70vh;
@@ -516,7 +516,7 @@ z-index: 9;
 
     }
 
-    
+
 
     h3 {
         height: 7vh;
@@ -1009,6 +1009,153 @@ z-index: 9;
 
 
 
+
+
+
+
+
+
+.contact .pr-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .pr-contact .text {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.for-log {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact .pr-contact .contact-my form .data div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.about_img,
+.co .lest .img-lest,
+.co .Goals .img-goals {
+    display: none;
+}
+
+.co .about .text_about {
+    width: 100%;
+    text-align: center;
+    height: 47vh;
+}
+
+.co .Mistress .cont {
+    width: 70%;
+    text-align: center;
+}
+
+.co .lest .text,
+.co .Goals .text-goals {
+    margin-left: 0;
+    width: 100%;
+}
+
+.co .BRAND div,
+.co .BRAND div {
+
+    margin: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact .pr-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .pr-contact .text {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.for-log {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact .pr-contact .contact-my form .data div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.about_img,
+.co .lest .img-lest,
+.co .Goals .img-goals {
+    display: none;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.co .about .text_about {
+    width: 100%;
+    text-align: center;
+    height: 47vh;
+}
+
+.co .Mistress .cont {
+    width: 70%;
+    text-align: center;
+}
+
+.co .lest .text,
+.co .Goals .text-goals {
+    margin-left: 0;
+    width: 100%;
+}
+
+.co .BRAND div,
+.co .BRAND div {
+
+    margin: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
 @media screen and (max-width: 1024px) {
     .create {
         width: 100%;
@@ -1039,512 +1186,54 @@ z-index: 9;
 
 
 
+    .log {
+        margin-top: 1%;
 
-    @media screen and (width: 920px) {
-        .co .lest .img-lest {
-            width: 36%;
-        }
+        .login {
+            height: 70vh;
 
-    }
-
-    @media screen and (width: 690px) {
-        .co .about .text_about {
-            width: 40%;
-            height: 50vh;
-        }
-    }
-
-
-    @media screen and (max-width: 710px) {
-        .create div {
-            width: 20%;
-        }
-    }
-
-
-
-    @media screen and (max-width: 590px) {
-        .create div {
-            width: 29%;
-        }
-    }
-
-    @media screen and (max-width: 429px) {
-        .create div {
-            width: 40%;
-        }
-    }
-
-    @media screen and (max-width: 410px) {
-        .create div {
-            width: 50%;
-        }
-
-        .create div span {
-            font-size: 13px;
-            text-align: left;
-        }
-    }
-
-
-    @media screen and (max-width: 1024px) {
-        .log .login {
-            height: 70vh
-        }
-
-        .log {
-            margin-top: 1%;
-        }
-    }
-
-
-    @media screen and (max-width: 1024px) {
-        .log .login form {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-    }
-
-    @media screen and (max-width: 1024px) {
-        .log .signup {
-            flex-direction: column;
-            align-items: center;
-            height: 70vh
-        }
-
-        .log form {
-            margin-top: 0;
-        }
-    }
-
-
-
-
-    .contact .pr-contact {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contact .pr-contact .text {
-        width: 100%;
-        text-align: center;
-        display: flex;
-        align-items: center;
-    }
-
-    .for-log {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .contact .pr-contact .contact-my form .data div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .about_img,
-    .co .lest .img-lest,
-    .co .Goals .img-goals {
-        display: none;
-    }
-
-    .co .about .text_about {
-        width: 100%;
-        text-align: center;
-        height: 47vh;
-    }
-
-    .co .Mistress .cont {
-        width: 70%;
-        text-align: center;
-    }
-
-    .co .lest .text,
-    .co .Goals .text-goals {
-        margin-left: 0;
-        width: 100%;
-    }
-
-    .co .BRAND div,
-    .co .BRAND div {
-
-        margin: 0;
-        width: 100%;
-        margin-top: 10px;
-    }
-
-    @media screen and (width: 920px) {
-        .co .lest .img-lest {
-            width: 36%;
-        }
-
-    }
-
-    @media screen and (width: 690px) {
-        .co .about .text_about {
-            width: 40%;
-            height: 50vh;
-        }
-    }
-
-
-    @media screen and (max-width: 710px) {
-        .create div {
-            width: 20%;
-        }
-
-        .con {
-            display: flex;
-            // background-color: rgb(85, 85, 85);
-        }
-
-        .flex {
-            display: flex;
-            flex-direction: column;
-
-        }
-
-        div[class=text] {
-            margin-bottom: 1vh;
-            width: 100%;
-        }
-
-        form[class=add-message-form] {
-            margin-left: 12vh;
-            width: 100%;
-            margin-top: 2vh;
-        }
-
-        .con {
-            width: 100%;
-            // background-color: rgba(0, 0, 0, 0.486);
-            display: flex;
-            flex-direction: row;
-
-            nav {
-                width: 20%;
-                height: 100%;
-            }
-
-            .icon-p {
+            form {
                 display: flex;
-                align-items: center;
-            }
-        }
-
-    }
-
-    @media screen and (max-width: 590px) {
-        .create div {
-            width: 29%;
-        }
-
-        .flex {
-            display: flex;
-            flex-direction: column;
-
-        }
-
-        .con {
-            display: flex;
-            flex-wrap: wrap;
-
-            // background-color: #8dc4f8;
-            width: 100%;
-
-            .nav {
-                width: 100%;
-                display: flex;
-                margin-right: 65px;
-
-                .icon {
-                    margin-right: 3vh;
-                }
-
-                #none {
-                    display: none;
-
-                }
-
-                .home {
-                    display: none;
-                    margin-top: 7vh;
-                    position: absolute;
-                    background-color: #2c2c2c;
-                    padding-right: 10vh;
-                    padding-bottom: 5vh;
-                    padding-top: 5vh;
-                    display: none;
-
-                    ul {
-
-                        display: flex;
-                        flex-direction: column;
-                    }
-                }
-
-            }
-
-        }
-
-
-    }
-
-    @media screen and (max-width: 429px) {
-        .create div {
-            width: 40%;
-        }
-
-        .flex {
-            display: flex;
-            flex-direction: column;
-            width: 30%;
-            height: 20vh;
-
-
-        }
-    }
-
-    @media screen and (max-width: 410px) {
-        .create div {
-            width: 50%;
-        }
-
-        .flex {
-            display: flex;
-            flex-direction: column;
-
-        }
-
-        .con {
-            display: flex;
-            flex-wrap: wrap;
-
-            // background-color: #8dc4f8;
-            width: 100%;
-
-            width: 100%;
-            // background-color: rgba(0, 0, 0, 0.486);
-            display: flex;
-            flex-direction: row;
-
-
-            .icon-p {
-                display: flex;
+                flex-direction: column;
                 align-items: center;
             }
 
-            .nav {
-                width: 70%;
-                display: flex;
-                margin-right: 65px;
-                background-color: #31313100;
-
-
-
-                .icon {
-                    margin-right: 3vh;
-                }
-
-                #none {
-                    display: none;
-
-                }
-
-                .home {
-                    display: none;
-                    justify-content: end;
-                    margin-left: 40vh;
-                    left: 0;
-                    margin-top: 7vh;
-                    position: absolute;
-                    background-color: #2c2c2c;
-                    padding-right: 10vh;
-                    padding-bottom: 5vh;
-                    padding-top: 5vh;
-                    display: none;
-
-                    ul {
-
-                        display: flex;
-                        flex-direction: column;
-                    }
-                }
-
-            }
-
-
         }
 
-
-
-
-        .create div span {
-            font-size: 13px;
-            text-align: left;
-        }
-
-        .flex {
-            display: flex;
-            flex-direction: column;
-
-        }
-
-        .con {
-            display: flex;
-            flex-wrap: wrap;
-
-            // background-color: #8dc4f8;
-            width: 100%;
-
-            .nav {
-                width: 100%;
-                display: flex;
-                margin-right: 65px;
-
-                .icon {
-                    margin-right: 3vh;
-                }
-
-                #none {
-                    display: none;
-
-                }
-
-                .home {
-                    display: flex;
-                    margin-top: 7vh;
-                    position: absolute;
-                    background-color: #2c2c2c;
-                    padding-right: 10vh;
-                    padding-bottom: 5vh;
-                    padding-top: 5vh;
-                    display: none;
-
-                    ul {
-
-                        display: flex;
-                        flex-direction: column;
-                    }
-                }
-                .homee{
-
-                    display: flex;
-                    margin-top: 7vh;
-                    position: absolute;
-                    background-color: #2c2c2c;
-                    padding-right: 10vh;
-                    padding-bottom: 5vh;
-                    padding-top: 5vh;
-                    display: none;
-
-                    ul {
-
-                        display: flex;
-                        flex-direction: column;
-                    }
-                }
-
-            }
-
-        }
-
-        .flex {
-            display: flex;
-            flex-direction: column;
-
-        }
-    }
-
-
-    @media screen and (max-width: 1024px) {
-        .log .login {
-            height: 70vh
-        }
-
-        .log {
-            margin-top: 1%;
-        }
-
-        .flex {
-            display: flex;
-            flex-direction: column;
-
-        }
-    }
-
-
-    @media screen and (max-width: 1024px) {
-        .log .login form {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .flex {
-            display: flex;
-            flex-direction: column;
-
-        }
-    }
-
-    @media screen and (max-width: 1024px) {
-        .log .signup {
+        .signup {
             flex-direction: column;
             align-items: center;
             height: 70vh
         }
 
-        .log form {
+        form {
             margin-top: 0;
         }
 
-        .flex {
-            display: flex;
-            flex-direction: column;
-
-        }
     }
 
 
-
-
-    .contact .pr-contact {
+    .flex {
         display: flex;
         flex-direction: column;
-    }
-
-    .contact .pr-contact .text {
-        width: 100%;
-        text-align: center;
-        display: flex;
-        align-items: center;
-    }
-
-    .for-log {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
 
     }
 
-    .contact .pr-contact .contact-my form .data div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+}
 
+@media screen and (max-width: 920px) {
+    .co .lest .img-lest {
+        width: 36%;
     }
 
-    .about_img,
-    .co .lest .img-lest,
-    .co .Goals .img-goals {
-        display: none;
+}
+
+
+
+
+@media screen and (max-width: 710px) {
+    .create div {
+        width: 20%;
     }
 
     .flex {
@@ -1553,34 +1242,460 @@ z-index: 9;
 
     }
 
+    div[class=text] {
+        margin-bottom: 1vh;
+        width: 100%;
+    }
+
+    form[class=add-message-form] {
+        margin-left: 12vh;
+        width: 100%;
+        margin-top: 2vh;
+    }
+
+    .con {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        .icon-p {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav {
+            width: 100%;
+            display: flex;
+            margin-right: 65px;
+            // background-color: #31313100;
+
+
+
+            .icon {
+                margin-right: 3vh;
+            }
+
+            #none {
+                display: none;
+
+            }
+
+            .home {
+                display: none;
+                justify-content: end;
+                // margin-left: 40vh;
+                // left: 0;
+                margin-top: 7vh;
+                position: absolute;
+                background-color: #2c2c2c;
+                padding-right: 10vh;
+                padding-bottom: 5vh;
+                padding-top: 5vh;
+
+                ul {
+
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+            .homee {
+
+                display: flex;
+                margin-top: 7vh;
+                position: absolute;
+                background-color: #2c2c2c;
+                padding-right: 10vh;
+                padding-bottom: 5vh;
+                padding-top: 5vh;
+                display: none;
+
+                ul {
+
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+
+
+
+
+        }
+
+
+    }
+
+}
+
+@media screen and (max-width: 690px) {
     .co .about .text_about {
-        width: 100%;
-        text-align: center;
-        height: 47vh;
+        width: 40%;
+        height: 50vh;
     }
-
-    .co .Mistress .cont {
-        width: 70%;
-        text-align: center;
-    }
-
-    .co .lest .text,
-    .co .Goals .text-goals {
-        margin-left: 0;
+    .con {
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
-    }
+        display: flex;
+        flex-direction: row;
 
-    .co .BRAND div,
-    .co .BRAND div {
+        .icon-p {
+            display: flex;
+            align-items: center;
+        }
 
-        margin: 0;
-        width: 100%;
-        margin-top: 10px;
+        .nav {
+            width: 100%;
+            display: flex;
+            margin-right: 65px;
+            // background-color: #31313100;
+
+
+
+            .icon {
+                margin-right: 3vh;
+            }
+
+            #none {
+                display: none;
+
+            }
+
+            .home {
+                display: none;
+                justify-content: end;
+                // margin-left: 40vh;
+                // left: 0;
+                margin-top: 7vh;
+                position: absolute;
+                background-color: #2c2c2c;
+                padding-right: 10vh;
+                padding-bottom: 5vh;
+                padding-top: 5vh;
+
+                ul {
+
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+            .homee {
+
+                display: flex;
+                margin-top: 7vh;
+                position: absolute;
+                background-color: #2c2c2c;
+                padding-right: 10vh;
+                padding-bottom: 5vh;
+                padding-top: 5vh;
+                display: none;
+
+                ul {
+
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+
+
+
+
+        }
+
+
     }
 }
 
-.flex {
-    display: flex;
-    flex-direction: column;
+@media screen and (max-width: 590px) {
+    .create {
+        div {
+            width: 29%;
+        }
+
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .con {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        .icon-p {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav {
+            width: 100%;
+            display: flex;
+            margin-right: 65px;
+            // background-color: #31313100;
+
+
+
+            .icon {
+                margin-right: 3vh;
+            }
+
+            #none {
+                display: none;
+
+            }
+
+            .home {
+                display: none;
+                justify-content: end;
+                // margin-left: 40vh;
+                // left: 0;
+                margin-top: 7vh;
+                position: absolute;
+                background-color: #2c2c2c;
+                padding-right: 10vh;
+                padding-bottom: 5vh;
+                padding-top: 5vh;
+
+                ul {
+
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+            .homee {
+
+                display: flex;
+                margin-top: 7vh;
+                position: absolute;
+                background-color: #2c2c2c;
+                padding-right: 10vh;
+                padding-bottom: 5vh;
+                padding-top: 5vh;
+                display: none;
+
+                ul {
+
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+
+
+
+
+        }
+
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 429px) {
+    .create {
+        div {
+            width: 40%;
+
+            span {
+                font-size: 13px;
+                text-align: left;
+            }
+        }
+
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 20vh;
+
+
+    }
+
+    .con {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        .icon-p {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav {
+            width: 100%;
+            display: flex;
+            margin-right: 65px;
+            // background-color: #31313100;
+
+
+
+            .icon {
+                margin-right: 3vh;
+            }
+
+            #none {
+                display: none;
+
+            }
+
+            .home {
+                display: none;
+                justify-content: end;
+                // margin-left: 40vh;
+                // left: 0;
+                margin-top: 7vh;
+                position: absolute;
+                background-color: #2c2c2c;
+                padding-right: 10vh;
+                padding-bottom: 5vh;
+                padding-top: 5vh;
+
+                ul {
+
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+            .homee {
+
+                display: flex;
+                margin-top: 7vh;
+                position: absolute;
+                background-color: #2c2c2c;
+                padding-right: 10vh;
+                padding-bottom: 5vh;
+                padding-top: 5vh;
+                display: none;
+
+                ul {
+
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+
+
+
+
+        }
+
+
+    }
+
+
+}
+
+@media screen and (max-width: 410px) {
+    .create {
+        div {
+            width: 50%;
+
+            span {
+                font-size: 13px;
+                text-align: left;
+            }
+        }
+
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .con {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        .icon-p {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav {
+            width: 100%;
+            display: flex;
+            margin-right: 65px;
+            // background-color: #31313100;
+
+
+
+            .icon {
+                margin-right: 3vh;
+            }
+
+            #none {
+                display: none;
+
+            }
+
+            .home {
+                display: none;
+                justify-content: end;
+                // margin-left: 40vh;
+                // left: 0;
+                margin-top: 7vh;
+                position: absolute;
+                background-color: #2c2c2c;
+                padding-right: 10vh;
+                padding-bottom: 5vh;
+                padding-top: 5vh;
+
+                ul {
+
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+            .homee {
+
+                display: flex;
+                margin-top: 7vh;
+                position: absolute;
+                background-color: #2c2c2c;
+                padding-right: 10vh;
+                padding-bottom: 5vh;
+                padding-top: 5vh;
+                display: none;
+
+                ul {
+
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+
+
+
+
+        }
+
+
+    }
 
 }
