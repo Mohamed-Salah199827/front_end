@@ -344,15 +344,10 @@ get_mess_us()
 // console.log(icon_p);
 let icon_p = document.getElementById("icon-p").addEventListener("click", drop_list)
 function drop_list() {
-    let list = document.getElementById("home")
-    list.style.display = "flex"
-    
-  if (list.style.display = "none") {
-    list.style.display = "flex"
-  }
-  else if(list.style.display = 'flex'){
-    list.style.display = "none"
-  }
+    let list = document.querySelector(".home")
+    // list.style.display = "flex"
+    list.classList.toggle("homee")
+  
 }
 
 let cha = document.getElementById("gear").addEventListener('click', sett);

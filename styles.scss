@@ -183,10 +183,11 @@ body {
 }
 
 .change-color {
+z-index: 9;
     display: flex;
     margin: 30%;
     transform: translateX(172%);
-    position: absolute;
+    position:fixed ;
     right: 0;
     top: -30%;
     justify-content: end;
@@ -199,6 +200,13 @@ body {
     display: flex;
     transform: translateX(120%);
     justify-content: end;
+    width: 25%;
+    height: 30%;
+    position:fixed ;
+    right: 0;
+    top: -30%;
+    justify-content: end;
+    // align-items: center;
     width: 25%;
     height: 30%;
 }
@@ -1410,7 +1418,24 @@ body {
                 }
 
                 .home {
+                    display: flex;
+                    margin-top: 7vh;
+                    position: absolute;
+                    background-color: #2c2c2c;
+                    padding-right: 10vh;
+                    padding-bottom: 5vh;
+                    padding-top: 5vh;
                     display: none;
+
+                    ul {
+
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+                .homee{
+
+                    display: flex;
                     margin-top: 7vh;
                     position: absolute;
                     background-color: #2c2c2c;
