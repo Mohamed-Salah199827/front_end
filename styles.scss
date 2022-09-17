@@ -1009,306 +1009,9 @@ body {
 
 
 
-@media screen and (max-width: 1024px) {
-    .create {
-        width: 100%;
-    }
 
-    .img-container {
-        width: 100%;
-        height: 100%
-    }
 
-    .create h3 {
-        margin-bottom: 2vh;
-        text-align: start;
-        font-size: 15px;
-    }
 
-    .create div span {
-        font-size: 12px
-    }
-
-    .create div p {
-        font-size: 8px
-    }
-
-    .co .lest .img-lest {
-        width: 36%;
-    }
-
-
-
-
-    @media screen and (width: 920px) {
-        .co .lest .img-lest {
-            width: 36%;
-        }
-
-    }
-
-    @media screen and (width: 690px) {
-        .co .about .text_about {
-            width: 40%;
-            height: 50vh;
-        }
-    }
-
-
-    @media screen and (max-width: 710px) {
-        .create div {
-            width: 20%;
-        }
-    }
-
-
-
-    @media screen and (max-width: 590px) {
-        .create div {
-            width: 29%;
-        }
-    }
-
-    @media screen and (max-width: 429px) {
-        .create div {
-            width: 40%;
-        }
-    }
-
-    @media screen and (max-width: 410px) {
-        .create div {
-            width: 50%;
-        }
-
-        .create div span {
-            font-size: 13px;
-            text-align: left;
-        }
-    }
-
-
-    @media screen and (max-width: 1024px) {
-        .log .login {
-            height: 70vh
-        }
-
-        .log {
-            margin-top: 1%;
-        }
-    }
-
-
-    @media screen and (max-width: 1024px) {
-        .log .login form {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-    }
-
-    @media screen and (max-width: 1024px) {
-        .log .signup {
-            flex-direction: column;
-            align-items: center;
-            height: 70vh
-        }
-
-        .log form {
-            margin-top: 0;
-        }
-    }
-
-
-
-
-    .contact .pr-contact {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contact .pr-contact .text {
-        width: 100%;
-        text-align: center;
-        display: flex;
-        align-items: center;
-    }
-
-    .for-log {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .contact .pr-contact .contact-my form .data div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .about_img,
-    .co .lest .img-lest,
-    .co .Goals .img-goals {
-        display: none;
-    }
-
-    .co .about .text_about {
-        width: 100%;
-        text-align: center;
-        height: 47vh;
-    }
-
-    .co .Mistress .cont {
-        width: 70%;
-        text-align: center;
-    }
-
-    .co .lest .text,
-    .co .Goals .text-goals {
-        margin-left: 0;
-        width: 100%;
-    }
-
-    .co .BRAND div,
-    .co .BRAND div {
-
-        margin: 0;
-        width: 100%;
-        margin-top: 10px;
-    }
-
-    @media screen and (width: 920px) {
-        .co .lest .img-lest {
-            width: 36%;
-        }
-
-    }
-
-    @media screen and (width: 690px) {
-        .co .about .text_about {
-            width: 40%;
-            height: 50vh;
-        }
-    }
-
-
-    @media screen and (max-width: 710px) {
-        .create div {
-            width: 20%;
-        }
-
-        .con {
-            display: flex;
-            // background-color: rgb(85, 85, 85);
-        }
-
-        .flex {
-            display: flex;
-            flex-direction: column;
-
-        }
-
-        div[class=text] {
-            margin-bottom: 1vh;
-            width: 100%;
-        }
-
-        form[class=add-message-form] {
-            margin-left: 12vh;
-            width: 100%;
-            margin-top: 2vh;
-        }
-
-        .con {
-            width: 100%;
-            // background-color: rgba(0, 0, 0, 0.486);
-            display: flex;
-            flex-direction: row;
-
-            nav {
-                width: 20%;
-                height: 100%;
-            }
-
-            .icon-p {
-                display: flex;
-                align-items: center;
-            }
-        }
-
-    }
-
-    .contact .pr-contact {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contact .pr-contact .text {
-        width: 100%;
-        text-align: center;
-        display: flex;
-        align-items: center;
-    }
-
-    .for-log {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .contact .pr-contact .contact-my form .data div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .about_img,
-    .co .lest .img-lest,
-    .co .Goals .img-goals {
-        display: none;
-    }
-
-    .flex {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .co .about .text_about {
-        width: 100%;
-        text-align: center;
-        height: 47vh;
-    }
-
-    .co .Mistress .cont {
-        width: 70%;
-        text-align: center;
-    }
-
-    .co .lest .text,
-    .co .Goals .text-goals {
-        margin-left: 0;
-        width: 100%;
-    }
-
-    .co .BRAND div,
-    .co .BRAND div {
-
-        margin: 0;
-        width: 100%;
-        margin-top: 10px;
-    }
-}
-
-.flex {
-    display: flex;
-    flex-direction: column;
-
-}
 
 // -----------------------------------------------------------------------------------------------------------------------------------
 
@@ -1317,43 +1020,256 @@ body {
 
 
 
-@media screen and (max-width: 1024px) {
-    .log {
-        margin-top: 1%;
+// @media screen and (max-width: 1024px) {
+//     .co {
+//         .BRAND {
+//             div {
 
-        form {
-            margin-top: 0;
-        }
+//                 margin: 0;
+//                 width: 100%;
+//                 margin-top: 10px;
+//             }
+//         }
 
-        .login {
-            height: 70vh;
+//         .Goals {
+//             .text-goals {
+//                 margin-left: 0;
+//                 width: 100%;
+//             }
+//         }
 
-            form {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-        }
+//         .about {
+//             .text_about {
+//                 width: 40%;
+//                 height: 50vh;
+//             }
+//         }
 
-        .signup {
-            flex-direction: column;
-            align-items: center;
-            height: 70vh
-        }
-    }
+//         .Mistress {
+//             .cont {
+//                 width: 70%;
+//                 text-align: center;
+//             }
+//         }
 
-    .flex {
-        display: flex;
-        flex-direction: column;
+//         .lest {
+//             .text {
+//                 margin-left: 0;
+//                 width: 100%;
+//             }
 
-    }
-}
+//             .img-lest {
+//                 width: 36%;
+
+//             }
+//         }
+
+//     }
 
 
-@media screen and (max-width: 665px) {
+
+//     .create {
+//         width: 100%;
+
+//         div {
+//             p {
+//                 font-size: 8px
+//             }
+
+//             span {
+//                 font-size: 12px
+//             }
+//         }
+
+//         h3 {
+//             margin-bottom: 2vh;
+//             text-align: start;
+//             font-size: 15px;
+//         }
+//     }
+
+//     .img-container {
+//         width: 100%;
+//         height: 100%
+//     }
+
+//     .log {
+//         margin-top: 1%;
+
+//         form {
+//             margin-top: 0;
+//         }
+
+//         .login {
+//             height: 70vh;
+
+//             form {
+//                 display: flex;
+//                 flex-direction: column;
+//                 align-items: center;
+//             }
+//         }
+
+//         .signup {
+//             flex-direction: column;
+//             align-items: center;
+//             height: 70vh
+//         }
+//     }
+
+//     .flex {
+//         display: flex;
+//         flex-direction: column;
+
+//     }
+
+//     .for-log {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+
+//     }
+
+//     .contact {
+//         .pr-contact {
+//             display: flex;
+//             flex-direction: column;
+
+//             .contact-my {
+//                 form {
+//                     .data {
+//                         div {
+//                             display: flex;
+//                             flex-direction: column;
+//                             align-items: center;
+
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .text {
+//                 width: 100%;
+//                 text-align: center;
+//                 display: flex;
+//                 align-items: center;
+//             }
+//         }
+
+//     }
+
+
+// }
+
+
+@media screen and (max-width: 750px) {
     .create {
         div {
             width: 29%;
+        }
+    }
+ .con{
+.nav{
+    
+}
+    
+ }
+    .change-color {
+        z-index: 9;
+        display: flex;
+        margin: 30%;
+        transform: translateX(175%);
+        position: fixed;
+        right: 0;
+        top: 0%;
+
+        justify-content: end;
+        // align-items: center;
+        width: 25%;
+        height: 40%;
+
+        .color-setting {
+            background-color: gray;
+            width: 50%;
+            display: flex;
+            border: 3px rgb(201, 197, 197) solid;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            transition: 3s;
+
+            .green {
+                background-color: #00fff2;
+            }
+
+            .blue {
+                background-color: #0000ff;
+            }
+
+            .gray {
+                background-color: #19ff00;
+            }
+
+            .black {
+                background-color: #fcff00;
+                border: 3px rgb(201, 197, 197) solid;
+            }
+        }
+    }
+
+    .change2-color {
+        display: flex;
+        transform: translateX(120%);
+        justify-content: end;
+        width: 50%;
+        height: 30%;
+        position: fixed;
+        right: 0;
+        top: 0%;
+        justify-content: end;
+        // align-items: center;
+        width: 25%;
+        height: 30%;
+
+        .color-setting {
+            background-color: gray;
+            width: 50%;
+            display: flex;
+            border: 3px rgb(201, 197, 197) solid;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            transition: 3s;
+
+            .green {
+                background-color: #00fff2;
+                padding: .4vh;
+                padding-left: .6vh;
+                padding-right: .6vh;
+
+            }
+
+            .blue {
+                background-color: #0000ff;
+                padding: .4vh;
+                padding-left: .6vh;
+                padding-right: .6vh;
+            }
+
+            .gray {
+                background-color: #19ff00;
+                padding: .4vh;
+                padding-left: .6vh;
+                padding-right: .6vh;
+            }
+
+            .black {
+                background-color: #fcff00;
+                padding: .4vh;
+                padding-left: .6vh;
+                padding-right: .6vh;
+                border: 3px rgb(201, 197, 197) solid;
+            }
         }
     }
 
@@ -1381,7 +1297,11 @@ body {
                 margin-right: 3vh;
             }
 
-
+            .icon-p {
+                display: flex;
+                align-items: center;
+                color: white;
+            }
 
             .home {
                 .icon-p {
@@ -1405,6 +1325,28 @@ body {
                     flex-direction: column;
                 }
             }
+            .show_home {
+                .icon-p {
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                }
+
+                display: flex;
+                margin-top: 7vh;
+                position: absolute;
+                background-color: #2c2c2c;
+                padding-right: 10vh;
+                padding-bottom: 5vh;
+                padding-top: 5vh;
+
+                ul {
+
+                    display: none;
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
 
         }
 
@@ -1414,6 +1356,11 @@ body {
 }
 
 @media screen and (max-width: 429px) {
+    .icon-p {
+        display: flex;
+        align-items: center;
+    }
+
     .create div {
         width: 40%;
     }
@@ -1467,6 +1414,7 @@ body {
             .icon {
                 margin-right: 3vh;
             }
+
             .icon-p {
                 display: flex;
                 align-items: center;
@@ -1484,7 +1432,7 @@ body {
                 padding-top: 5vh;
                 display: none;
 
-               
+
 
                 ul {
 

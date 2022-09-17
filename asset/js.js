@@ -344,9 +344,8 @@ get_mess_us()
 // console.log(icon_p);
 let icon_p = document.getElementById("icon-p").addEventListener("click", drop_list)
 function drop_list() {
-    let list = document.querySelector(".home")
-    // list.style.display = "flex"
-    list.classList.toggle("homee")
+  let home =document.querySelector('.con .nav .home')
+  home.classList.toggle("show_home")
   
 }
 
